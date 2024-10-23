@@ -12,7 +12,7 @@ def sketch(p):
     
 
     def draw():
-        colorlist = ['purple','red', 'yellow', 'turquoise', 'orange']
+        colorlist = ['purple','red', 'yellow', 'turquoise']
         p.noStroke()
         p.fill(random.choice(colorlist))
         p.ellipse(p.mouseX,p.mouseY,50,50)
